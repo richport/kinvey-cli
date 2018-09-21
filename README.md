@@ -36,7 +36,7 @@ Kinvey CLI is distributed as an NPM package. After you install NPM, run the foll
 
    Prompts you to provide account credentials and instance ID and creates a new working profile for you based on the information you provided. Command-line options that specify the same data are ignored.
 
-* `profile create <name> [profile information]`
+* `profile create  <name> [profile information]`
 
    Creates a profile with the specified name. You can specify the profile information either at the command line as arguments or as environment variables. In the presence of command line argument, any values specified through environment variables are ignored.
 
