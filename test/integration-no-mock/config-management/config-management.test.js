@@ -80,15 +80,15 @@ describe('Config management', () => {
     removeDir('/');
   });
 
-  describe('App config create', appConfigCreateTests);
-
-  describe('App config push', appConfigPushTests);
-
-  describe('Env config create', envConfigCreateTests);
-
-  describe('Env config push', envConfigPushTests);
-
-  describe('Env config export', envConfigExportTests);
+  // describe('App config create', appConfigCreateTests);
+  //
+  // describe('App config push', appConfigPushTests);
+  //
+  // describe('Env config create', envConfigCreateTests);
+  //
+  // describe('Env config push', envConfigPushTests);
+  //
+  // describe('Env config export', envConfigExportTests);
 
   describe('Service config create', serviceConfigCreateTests);
 
@@ -96,5 +96,5 @@ describe('Config management', () => {
 
   describe('Service config export', serviceConfigExportTests);
 
-  describe('Org config export', orgConfigExportTests);
+  // describe('Org config export', orgConfigExportTests);
 });

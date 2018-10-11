@@ -33,6 +33,7 @@ module.exports = () => {
     }
 
     ApiService.services.remove(serviceId, (err) => {
+      console.log(`ServiceId: ${serviceId}`);
       serviceId = null;
       done(err);
     });
