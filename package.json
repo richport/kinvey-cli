@@ -33,6 +33,7 @@
     "test-npm-security": "npm audit"
   },
   "dependencies": {
+    "@pact-foundation/pact": "8.0.2",
     "aes-js": "3.1.1",
     "archiver": "1.0.1",
     "async": "1.4.2",
@@ -59,6 +60,7 @@
   "devDependencies": {
     "body-parser": "1.18.2",
     "chai": "3.3.0",
+    "chai-as-promised": "7.1.1",
     "dos2unix-cli": "1.0.1",
     "eslint": "5.0.1",
     "eslint-config-kinvey-platform": "kinvey/eslint-kinvey-platform#0.1.4",

@@ -1,0 +1,39 @@
+{
+  "consumer": {
+    "name": "kinvey-cli"
+  },
+  "provider": {
+    "name": "MAPI"
+  },
+  "interactions": [
+    {
+      "description": "a request for sites",
+      "providerState": "sites.listOfOne",
+      "request": {
+        "method": "GET",
+        "path": "/v3/sites",
+        "headers": {
+          "Accept": "application/json"
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": [
+          {
+            "id": 1,
+            "name": "Site 1",
+            "organizationId": "orgId1"
+          }
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  }
+}

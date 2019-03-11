@@ -1,0 +1,55 @@
+I, [2019-03-08T17:27:21.090533 #5800]  INFO -- : Registered expected interaction GET /v3/sites
+D, [2019-03-08T17:27:21.090533 #5800] DEBUG -- : {
+  "description": "a request for sites",
+  "providerState": "sites.listOfOne",
+  "request": {
+    "method": "GET",
+    "path": "/v3/sites",
+    "headers": {
+      "Accept": "application/json"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": [
+      {
+        "id": 1,
+        "name": "Site 1",
+        "organizationId": "orgId1"
+      }
+    ]
+  }
+}
+I, [2019-03-08T17:27:21.112502 #5800]  INFO -- : Received request GET /v3/sites
+D, [2019-03-08T17:27:21.112502 #5800] DEBUG -- : {
+  "path": "/v3/sites",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "X-Kinvey-Device-Information": "kinvey-cli/4.4.0-alpha.2 win32 10.0.17763",
+    "Host": "localhost:3234",
+    "Accept": "application/json",
+    "Connection": "close",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2019-03-08T17:27:21.112502 #5800]  INFO -- : Found matching response for GET /v3/sites
+D, [2019-03-08T17:27:21.113506 #5800] DEBUG -- : {
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": [
+    {
+      "id": 1,
+      "name": "Site 1",
+      "organizationId": "orgId1"
+    }
+  ]
+}
+I, [2019-03-08T17:27:21.123475 #5800]  INFO -- : Verifying - interactions matched
+I, [2019-03-08T17:27:21.134447 #5800]  INFO -- : Writing pact for MAPI to C:/Work/kin/kinvey-cli/pacts/kinvey-cli-mapi.json
+I, [2019-03-08T17:27:21.136410 #5800]  INFO -- : Cleared interactions
