@@ -29,7 +29,7 @@
     "test-unit": "./node_modules/.bin/mocha test/unit --NODE_CONFIG_DIR=./test/config",
     "test-integration-mock": "./node_modules/.bin/mocha test/integration",
     "test-integration-no-mock": "./node_modules/.bin/mocha test/integration-no-mock/**/*.test.js",
-    "test-integration": "npm run test-integration-mock && npm run test-integration-no-mock",
+    "test-integration": "npm run test-integration-no-mock",
     "coverage": "./node_modules/.bin/nyc --reporter=html --reporter=text ./node_modules/.bin/mocha test --NODE_CONFIG_DIR=./test/config",
     "eslint": "./node_modules/.bin/eslint bin config lib test",
     "test-npm-security": "npm audit"
